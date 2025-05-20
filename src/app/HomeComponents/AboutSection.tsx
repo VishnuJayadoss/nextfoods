@@ -35,7 +35,7 @@ const AboutPage = () => {
   return (
     <div className="container mx-auto lg:px-10 px-5 lg:py-10">
              
-              <h5 className="text-center lg:text-8xl sm:text-4xl text-red-800 font-bold mb-4">MINERVA FOOD</h5>
+              <h5 className="text-center lg:text-8xl text-4xl text-red-800 font-bold mb-4">MINERVA FOOD</h5>
       <div className="grid grid-cols-12 lg:gap-4">
         {/* Left Column */}
         <div className="lg:col-span-4 col-span-12 flex flex-col text-justify items-center gap-8 lg:px-5">
