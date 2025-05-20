@@ -101,7 +101,8 @@ export default function MobileHeader() {
                     Products <ChevronRight size={16} />
                   </button> */}
 
-                  <MobileNavLink href="/gallery" setIsOpen={setIsOpen}>Gallery</MobileNavLink>
+                 <MobileNavLink href="/menu" setIsOpen={setIsOpen}>Menu</MobileNavLink>  
+                 <MobileNavLink href="/gallery" setIsOpen={setIsOpen}>Gallery</MobileNavLink>
                   <MobileNavLink href="/blog" setIsOpen={setIsOpen}>Blogs</MobileNavLink>
                   <MobileNavLink href="/contact" setIsOpen={setIsOpen}>Contact Us</MobileNavLink>
                 </>

@@ -35,7 +35,7 @@ const AboutPage = () => {
   return (
     <div className="container mx-auto lg:px-10 px-5 lg:py-10">
              
-              <h5 className="text-center text-8xl sm:text-4xl font-bold mb-4">MINERVA FOOD</h5>
+              <h5 className="text-center text-8xl sm:text-4xl text-red-800 font-bold mb-4">MINERVA FOOD</h5>
       <div className="grid grid-cols-12 lg:gap-4">
         {/* Left Column */}
         <div className="lg:col-span-4 col-span-12 flex flex-col text-justify items-center gap-8 lg:px-5">
@@ -53,12 +53,12 @@ const AboutPage = () => {
                   alt={item.title}
                   width={100}
                   height={100}
-                  className={`w-[60px] h-[60px] lg:w-[50px] lg:h-[25px] duration-700`}
+                  className={`w-[60px] h-[60px] lg:w-[44px] lg:h-[25px] duration-700`}
                 />
               </div>
               <div>
-                <p className="text-2xl text-black/80 lg:mt-5">{item.title}</p>
-                <p className="text-[14px] leading-6 text-black/70 mt-3">{item.text}</p>
+                <p className="text-2xl text-black/80 lg:mt-5 text-red-700">{item.title}</p>
+                <p className="text-[14px] lg:text-[18px] leading-6 text-black/70 mt-3">{item.text}</p>
               </div>
             </div>
           ))}
@@ -97,12 +97,12 @@ const AboutPage = () => {
                   alt={item.title}
                   width={100}
                   height={100}
-                  className={"w-[60px] h-[60px] lg:w-[50px] lg:h-[25px] duration-700"}
+                  className={"w-[60px] h-[60px] lg:w-[44px] lg:h-[25px] duration-700"}
                 />
               </div>
               <div>
-                <p className="text-2xl text-black/80 lg:mt-5">{item.title}</p>
-                <p className="text-[14px] leading-6 text-black/70 mt-3">{item.text}</p>
+                <p className="text-2xl text-black/80 lg:mt-5 text-red-700">{item.title}</p>
+                <p className="text-[14px] lg:text-[18px] leading-6 text-black/70 mt-3">{item.text}</p>
               </div>
             </div>
           ))}

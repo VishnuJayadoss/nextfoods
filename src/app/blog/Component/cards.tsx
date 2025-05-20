@@ -56,10 +56,10 @@ export default function Cards() {
                 {/* Button */}
                 <Link
                   href="/courses"
-                  className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-full text-1xl lg:text-sm lg:font-semibold hover:bg-red-700 transition lg:w-[35%] w-[43%]"
+                  className="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-full text-1xl lg:text-sm lg:font-semibold hover:bg-red-700 transition lg:w-[35%] w-[47%]"
                 >
                   Read More
-                  <span className="ml-3 lg:ml-4 bg-white text-red-600 rounded-full text-[8px] lg:text-xs px-[11px] py-[10px]">
+                  <span className="ml-5 lg:ml-4 bg-white text-red-600 rounded-full text-[8px] lg:text-xs px-[11px] py-[10px]">
                   <GrLinkNext />
                   </span>
                 </Link>
