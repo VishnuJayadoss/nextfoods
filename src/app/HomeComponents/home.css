@@ -1,0 +1,16 @@
+.banner{
+     background-image: url('/asset/header-bg.png');
+     background-size: cover;
+     background-position: center center;
+     height: 100vh;
+}
+.swiper-button-prev, .swiper-button-next{
+    color: aliceblue;
+}
+@media (max-width:525px) {
+    .banner{
+        height: auto;
+    }
+    
+}
+
