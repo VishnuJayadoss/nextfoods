@@ -7,7 +7,7 @@ export default function Gallery() {
       <div className="mx-10 my-10">
         <div className="gallery-grid">
           {/* Item 1 */}
-          <div className="gallery-item w-8/10">
+          <div className="gallery-item w-9/10">
             <div className="team-style1">
               <div className="team-img img-box5 mega-hover">
                 <Image
@@ -25,7 +25,7 @@ export default function Gallery() {
           </div>
 
           {/* Item 2 */}
-          <div className="gallery-item w-8/10">
+          <div className="gallery-item w-9/10">
             <div className="team-style1">
               <div className="team-img img-box5 mega-hover">
                 <Image
@@ -44,7 +44,7 @@ export default function Gallery() {
           </div>
 
           {/* Item 3 */}
-          <div className="gallery-item w-8/10">
+          <div className="gallery-item w-9/10">
             <div className="team-style1">
               <div className="team-img img-box5 mega-hover">
                 <Image

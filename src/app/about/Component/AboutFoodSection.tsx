@@ -27,7 +27,7 @@ const AboutFoodSection = () => {
                 {/* Content Section */}
                 <div className="flex flex-wrap gap-10 mt-10">
                     {/* Image Section */}
-                    <div className="relative w-7/12 lg:w-6/12">
+                    <div className="relative w-12/12 lg:w-6/12">
                     <p className="text-gray-700 text-lg text-justfy lg:mt-10">
                             At Flavor Haven, we are passionate about crafting unforgettable culinary
                             experiences using the freshest, locally-sourced ingredients. Our chefs blend

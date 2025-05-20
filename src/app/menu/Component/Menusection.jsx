@@ -60,7 +60,7 @@ export default function MenuCardSection() {
 
           {/* Menu Links */}
           <div className="lg:w-10/12 w-7/8">
-            <div className="old bg-[url('/old.webp')] bg-cover bg-center p-4 sm:p-6 rounded-lg h-full lg:w-6/8" data-aos="flip-left" data-aos-duration="1500">
+            <div className="old bg-[url('/old.webp')] bg-cover bg-center p-4 sm:p-6 rounded-lg h-full w-full lg:w-6/8" data-aos="flip-left" data-aos-duration="1500">
               <h4 className="text-2xl sm:text-3xl lg:text-4xl mb-6 text-center">Menu List</h4>
               <div className="space-y-4 varietie justify-center text-xl sm:text-2xl lg:text-3xl pt-4 sm:pt-[50px] px-[50px] lg:px-[100px]">
 
