@@ -12,7 +12,7 @@ export default function Gallery() {
               <div className="team-img img-box5 mega-hover">
                 <Image
                   className="w-100 lg:h-75 h-50 object-cover"
-                  src="/gallery/curd rice.jpeg"
+                  src="/gallery/curd-rice.jpeg"
                   alt="Delicious Pasta Dish"
                   width={400}
                   height={300}
@@ -30,7 +30,7 @@ export default function Gallery() {
               <div className="team-img img-box5 mega-hover">
                 <Image
                   className="w-100 lg:h-75 h-50 object-cover"
-                  src="/gallery/masala dosa.jpeg"
+                  src="/gallery/masala-dosa.jpeg"
                   alt="Fresh Garden Salad"
                   width={400}
                   height={300}
